@@ -21,7 +21,7 @@ apiValidation {
     // https://github.com/Kotlin/binary-compatibility-validator/issues/3
     project("scripts").subprojects.mapTo(ignoredProjects) { it.name }
     project("test").subprojects.mapTo(ignoredProjects) { it.name }
-    ignoredProjects.add("website")
+   // ignoredProjects.add("website")
 }
 
 

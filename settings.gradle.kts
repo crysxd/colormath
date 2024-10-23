@@ -3,7 +3,7 @@ include("test")
 include("extensions:colormath-ext-android-color")
 include("extensions:colormath-ext-android-colorint")
 include("extensions:colormath-ext-jetpack-compose")
-include("website")
+//include("website")
 include("scripts:benchmarks")
 
 rootProject.name = "colormath-root"
